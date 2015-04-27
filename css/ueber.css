@@ -1,0 +1,45 @@
+/* CSS für ÜberPage */
+
+
+#about.about-section {
+	padding-top: 75px;
+}
+
+#about .col-lg-12 {
+	margin-bottom: 40px;
+}
+
+#about .txt_ueber {
+	padding-right: 50px !important;
+	text-align: left;
+	margin: 0 auto;
+	}
+
+#about .col-lg-6 {
+	padding: 0;
+	}
+
+#carousel-about img{
+	height: 523px; 
+	margin: 0 auto;
+	margin-bottom: 20px;
+	}
+
+#carousel-about {
+	width: 500px;
+	margin: 0 auto;
+	}
+
+#about .carousel-control.left {
+	background-image: none;
+	background-repeat: repeat-x;
+	}
+#about .carousel-control.right {
+	right: 0;
+	left: auto;
+	background-image: none;
+	background-repeat: repeat-x;
+	}
+
+
+

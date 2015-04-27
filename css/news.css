@@ -1,0 +1,51 @@
+/* CSS für NewsPage */
+
+#news .news-article {
+	text-align: justify;
+	}
+
+#news h4 {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	text-align: center;
+	}
+
+#news .col-lg-5 {
+	max-width : 650px;
+	margin: 0 auto;
+	}
+
+#news .well {
+	background-color: white;
+    overflow-y: auto;
+    }
+
+#news .news-well {
+	height: 800px;
+	}
+
+#news .tourdate-well {
+	height: 550px;
+	}
+
+#news .discographie-well {
+	 height: 229px;
+ 	 padding-bottom: 10px;
+ 	 padding-top: 10px;
+	}
+	
+#news .tourdate-article {
+	margin-top: 30px;
+	}
+	
+#news a {
+	cursor: pointer;
+	}
+	
+#news .tourdate-article-past {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: grey;
+
+}

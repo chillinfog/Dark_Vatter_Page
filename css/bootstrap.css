@@ -268,7 +268,11 @@ th {
   font-family: 'Glyphicons Halflings';
 
   src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -6564,3 +6568,39 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* all necessary classes for shop section */
+
+.shopItunes a {
+    display: inline-block;
+    overflow: hidden;
+    background: url("http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.png")
+                no-repeat;
+    width: 165px;
+    height: 40px;
+
+}
+
+
+
+.shopAmazon {
+
+}
+
+/*.shopGooglePlay {
+  background-image: url("https://developer.android.com/images/brand/de_generic_rgb_wo_60.png");
+  height: 60px;
+  width: 172px;
+}*/
+
+.shopSpotify {
+
+}
+
+.shopDeezer {
+
+}
+
+.cover_hunnerdbrozenndich {
+
+}

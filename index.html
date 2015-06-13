@@ -38,6 +38,7 @@
             </div>
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <div class="navbar-right">
                 <ul class="nav navbar-nav">
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
@@ -58,6 +59,7 @@
                         <a class="page-scroll" href="#contact">Kontakt</a>
                     </li>
                 </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -211,14 +213,159 @@ Der Wortwitz und die Geschichten werden Dark Vatter so schnell nicht ausgehen. Z
     <!-- Contact Section -->
     <section id="contact" class="contact-section section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Contact Sektion</h1>
-                </div>
-            </div>
+            <h2>
+                <!-- titel -->
+                kontaktiere uns jetzt!<br/>
+                
+                <span>wir antworten sobald wie möglich</span>
+            </h2>
+          
+          <!-- kontaktformular -->
+          <form class="form-horizontal" id="contact-form" role="form" data-toggle="validator">
+              
+              <!-- name -->
+              <div class="form-group col-sm-4 col-xs-12 inline-input anim-fade-down">
+                  <div class="input-group col-sm-12 col-xs-12">
+                    
+                     <!-- bild -->
+                     <div class="input-group-addon"><span class="elegant icon_profile"></span></div>
+                     
+                     <!-- input -->
+                     <input type="text" class="form-control" id="name" placeholder="Name" data-minlength="3" required>
+                      
+                  </div>
+                  
+                  <!-- error text -->
+                  <div class="help-block with-errors"></div>
+                  
+              </div>
+              
+              <!-- e-mail input -->
+              <div class="form-group col-sm-4 col-xs-12 inline-input anim-fade-down">
+                  <div class="input-group col-sm-12 col-xs-12">
+                    
+                     <!-- bild -->
+                     <div class="input-group-addon"><span class="elegant icon_mail_alt"></span></div>
+                     
+                     <!-- input -->
+                     <input type="email" class="form-control" id="email" placeholder="E-Mail Adresse" required>
+                      
+                  </div>
+                  
+                  <!-- error text-->
+                  <div class="help-block with-errors"></div>
+                  
+              </div>
+              
+              <!-- phone number input-->
+              <div class="form-group col-sm-4 col-xs-12 inline-input anim-fade-down">
+                  <div class="input-group col-sm-12 col-xs-12">
+                    
+                     <!-- bild -->
+                     <div class="input-group-addon"><span class="elegant icon_phone"></span></div>
+                     
+                     <!-- phone number input -->
+                     <input type="telephone" class="form-control" id="telephone" placeholder="Telefon">
+                      
+                  </div>
+                  
+                  <!-- error text -->
+                  <div class="help-block with-errors"></div>
+                  
+              </div>
+              
+              <!-- textblock -->
+              <div class="form-group col-sm-12 col-xs-12 anim-fade-up">
+                  <div class="input-group col-sm-12 col-xs-12 form-textarea">
+                    
+                      <!-- bild -->
+                      <div class="input-group-addon"><span class="elegant icon_pencil-edit"></span></div>
+                      
+                      <!-- textblock -->
+                      <textarea class="form-control" id="message" rows="10" placeholder="Schreibe hier deinen Text.." required></textarea>
+                      
+                  </div>
+                  
+                  <!-- error text -->
+                  <div class="help-block with-errors"></div>
+                  
+              </div>
+              
+              <!-- submit -->
+              <div class="form-group col-xs-12">
+                
+                  <!-- button -->
+                  <button type="submit" class="btn btn-success col-sm-4 col-xs-12">
+                    
+                    <!-- bild -->
+                    <span class="icon_check"></span>
+                    
+                    <!-- button text -->
+                    Senden
+                  
+                  </button>
+                  
+              </div>
+              
+              <!-- error text -->
+              <div class="help-block with-errors"></div>
+              
+          </form>
         </div>
     </section>
 
+    <!-- before footer section -->
+    <div id="before-footer">
+        <div class="container">
+
+            <!-- erster teil -->
+            <div class="col-sm-3 col-xs-12">
+                <h6>text</h6>
+                <p>text</p>
+            </div>
+
+            <!-- zweiter teil -->
+            <div class="col-sm-3 col-xs-12">
+                <h6>text</h6>
+                <p>text</p>
+            </div>
+
+            <!-- dritter teil -->
+            <div class="col-sm-3 col-xs-12">
+                <h6>text</h6>
+                <p>text</p>
+            </div>
+
+            <!-- vierter teil -->
+            <div class="col-sm-3 col-xs-12">
+                <h6>text</h6>
+                <p>text</p>
+            </div>
+
+        </div>
+
+
+    <footer>
+        <div class="container footer">
+            <div class="col-sm-3 col-xs-12 hidden-xs">
+                <a href="#">Dark Vatter</a>
+            </div>
+
+            <!-- social media -->
+            <div class="col-sm-6">
+                <a href="https://www.facebook.com/pages/Dark-Vatter/156743354363885?fref=ts">
+                    <div class="sm">
+                        <span class="elegant social_facebook"></span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- copyright -->
+            <div class="col-sm-3 col-xs-12">
+                © 2015 all rights reserved.
+            </div>
+        </div>
+    </footer>
     
 
     <!-- jQuery -->
@@ -230,6 +377,8 @@ Der Wortwitz und die Geschichten werden Dark Vatter so schnell nicht ausgehen. Z
     <!-- Scrolling Nav JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+    <!-- form validation -->
+    <script type="text/javascript" src="js/validator.js"></script>
 
 </body>
 

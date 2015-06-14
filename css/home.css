@@ -1,0 +1,14 @@
+/* home css classes */
+
+.header {
+	background-image: url("../img/header.jpg");
+	height: 965px;
+}
+
+.header-title {
+	font-size: 10em;
+	color: white;
+	text-shadow: 0 0 0.2em black;
+	margin-top: 200px;
+	font-family: 'Bevan', cursive;
+}

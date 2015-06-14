@@ -6077,8 +6077,8 @@ button.close {
 
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    -webkit-perspective: 1000;
-            perspective: 1000;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
   }
   .carousel-inner > .item.next,
   .carousel-inner > .item.active.right {
@@ -6569,44 +6569,7 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
-<<<<<<< HEAD
-/* all necessary classes for shop section */
-
-.shopItunes a {
-    display: inline-block;
-    overflow: hidden;
-    background: url("http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.png")
-                no-repeat;
-    width: 165px;
-    height: 40px;
-
-}
-
-
-
-.shopAmazon {
-
-}
-
-/*.shopGooglePlay {
-  background-image: url("https://developer.android.com/images/brand/de_generic_rgb_wo_60.png");
-  height: 60px;
-  width: 172px;
-}*/
-
-.shopSpotify {
-
-}
-
-.shopDeezer {
-
-}
-
-.cover_hunnerdbrozenndich {
-
-}
-=======
 .section {
   padding-bottom: 50px;
 }
->>>>>>> master
+

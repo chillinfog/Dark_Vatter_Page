@@ -6573,3 +6573,70 @@ button.close {
   padding-bottom: 50px;
 }
 
+footer {
+  padding: 25px 0 25px;
+  background: #3d3d3d;
+  color: #999999;
+  font-size: .875em;
+  overflow: hidden;
+}
+
+footer a {
+  color: inherit !important;
+}
+
+#before-footer {
+
+margin: 15px 0 0;
+padding: 25px 0 0;
+color: #666666;
+font-size: .875em;
+line-height: 1.5em;
+}
+
+#contact {
+  min-height: 650px;
+  padding-top: 50px;
+}
+
+#contact h2 {
+  margin-bottom: 60px;
+}
+#contact input,
+#contact textarea {
+  font-size: 1em !important;
+}
+#contact .inline-input {
+  margin-right: 1.3%;
+}
+#contact .col-inline input {
+  width: 93%;
+}
+#contact .col-inline:last-of-type input {
+  width: 100%;
+}
+#contact textarea {
+  resize: none;
+  padding: 20px 15px;
+}
+#contact input,
+#contact textarea {
+  background-color: #f3f3f3;
+}
+#contact input:focus,
+#contact textarea:focus {
+  background-color: #ffffff;
+}
+#contact .form-group {
+  margin-bottom: 30px;
+}
+#contact button {
+  font-size: 1.125em;
+  font-weight: 600;
+  padding: 15px 0 20px;
+  float: right;
+}
+#contact button span {
+  font-size: 1.5em;
+  margin-bottom: -20px;
+}

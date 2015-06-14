@@ -1,45 +1,37 @@
 /* all necessary classes for shop section */
 
+.shop {
+    margin-bottom: 30px;
+    width: 230px;
+    height: 81px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .shopItunes {
-    display: inline-block;
-    overflow: hidden;
-    background: url("http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.png") no-repeat;
-    width: 165px;
-    height: 40px;
+    background: url("../img/shop_itunes.png") no-repeat;
 }
 
 .shopGooglePlay {
-    background: url("https://developer.android.com/images/brand/de_generic_rgb_wo_60.png") no-repeat;
-    width: 172px;
-    height: 60px;
-    display: inline-block;
-    overflow: hidden;
+    background: url("../img/shop_googleplay.png") no-repeat;
 }
 
 .shopAmazon {
-    background: url("../img/shop_amazon.png");
-    width: 230px;
-    height: 68px;
-    display: inline-block;
-    overflow: hidden;
+    background: url("../img/shop_amazon.png");    
 }
 
 .shopSpotify {
-    display: inline-block;
-    overflow: hidden;
-
+    background: url("../img/shop_spotify.png");  
 }
 
 .shopDeezer {
-    display: inline-block;
-    overflow: hidden;
-
+    background: url("../img/shop_deezer.png");  
 }
 
 .cover_hunnerdbrozenndich {
     background-image: url("../img/shop_cover_hunnerdprozenndich.jpg");
     height: 500px;
     width: 500px;
-
-    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
 }

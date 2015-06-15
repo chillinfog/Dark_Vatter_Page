@@ -1,5 +1,9 @@
 /* all necessary classes for shop section */
 
+#shop h1{
+    padding-bottom: 30px;
+}
+
 .shop {
     margin-bottom: 30px;
     width: 230px;
@@ -28,7 +32,6 @@
     background: url("../img/shop_deezer.png");  
 }
 
-.shop img {
-    height: auto;
-    max-width: 100%;
+.shop-img {
+    margin-bottom: 30px;
 }

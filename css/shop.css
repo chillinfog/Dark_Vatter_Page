@@ -1,5 +1,9 @@
 /* all necessary classes for shop section */
 
+#shop h1{
+    padding-bottom: 30px;
+}
+
 .shop {
     margin-bottom: 30px;
     width: 230px;
@@ -28,10 +32,6 @@
     background: url("../img/shop_deezer.png");  
 }
 
-.cover_hunnerdbrozenndich {
-    background-image: url("../img/shop_cover_hunnerdprozenndich.jpg");
-    height: 500px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+.shop-img {
+    margin-bottom: 30px;
 }

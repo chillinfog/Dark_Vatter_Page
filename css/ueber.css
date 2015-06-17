@@ -32,5 +32,9 @@
 	background-repeat: repeat-x;
 	}
 
-
-
+.about-responsive-img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	width: 50%;
+}

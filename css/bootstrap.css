@@ -6640,3 +6640,91 @@ line-height: 1.5em;
   font-size: 1.5em;
   margin-bottom: -20px;
 }
+
+
+
+/* Kopieren */
+
+#main{
+  width: 1200px;
+  height: 600px;
+  margin-top: 70px;
+}
+
+
+#youtube-buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    /*background-image: url(url.jpg);*/
+    background-color: #D8D8D8;
+    margin-right: 30px;
+    width: 350px;
+    line-height: 60px;
+    padding-top: 20px;
+    float: left;
+    text-decoration: none;
+    display: block;
+    color: #2E2E2E;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    }
+
+
+  #youtube-buttons-sm-xs li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  /*background-image: url(url.jpg);*/
+  background-color: #D8D8D8;
+  /*margin-right: 30px;*/
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  display: block;
+  color: #2E2E2E;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding-left: 0px !important;
+  -webkit-padding-start: 0px !important;
+  }
+
+  #youtube-buttons li:hover{
+    background-color: #B05555;
+  }
+
+ 
+#youtube-buttons li a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #33B5E5;
+}
+
+#ivideo1{
+  display: block;
+}
+
+#ivideo2{
+  display: none;
+}
+
+#ivideo3{
+  display: none;
+}
+#ivideo4{
+  display: none;
+}
+
+#video-switcher1, 
+#video-switcher2, 
+#video-switcher3, 
+#video-switcher4{
+cursor: pointer;
+font-size: 22px;
+}
+
+/* Kopieren */

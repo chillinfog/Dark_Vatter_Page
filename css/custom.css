@@ -1,18 +1,36 @@
-
+@font-face {
+  font-family: 'Rosewood Std';
+  src: url('../fonts/RosewoodStd-Regular.otf');
+}
 
 #about h1 {
 	padding-bottom: 50px;
+	font-family: 'Rosewood Std';
+	font-size: 5em;
 }
 
 #video h1 {
 	padding-bottom: 50px;
+	font-family: 'Rosewood Std';
+	font-size: 5em;
 }
 
 #shop h1 {
 	padding-bottom: 50px;
+	font-family: 'Rosewood Std';
+	font-size: 5em;
+}
+
+#contact h2{
+	font-family: 'Rosewood Std';	
+	font-size: 5em;
 }
 
 #contact .container {
 	padding-left: 70px;
 	padding-right: 70px;
+}
+
+.title-font {
+	font-family: 'Rosewood Std';
 }
